@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Character Search Application
 
-## Getting Started
+This project is a React-based application that allows users to search for characters from the "Rick and Morty" series using an autocomplete component. It uses the [Rick and Morty API](https://rickandmortyapi.com/) to fetch character data. Users can select characters from autocomplete search results, manage selected characters, and handle various keyboard interactions for a seamless user experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Autocomplete Search**: Search characters by name using an input field that autocompletes based on live results from the API.
+- **Keyboard Navigation**: Navigate through autocomplete results using arrow keys and select characters using the Enter or Space key.
+- **Manage Selected Characters**: Add or remove characters from a selected list displayed below the search bar.
+- **Accessibility Enhancements**: Implements accessible components with appropriate ARIA roles and keyboard interactions.
+- **Responsive UI**: Mobile-responsive design that adjusts layout and components for various screen sizes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **React**: For building the user interface.
+- **TypeScript**: For static type checking.
+- **Next.js**: For server-side rendering and routing.
+- **Framer Motion**: For animation effects.
+- **TanStack React Query**: For managing server state, caching, and background updates.
+- **Tailwind CSS**: For styling and designing the frontend.
+- **ShadCN UI**: For building accessible components.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Setup and Installation
 
-## Learn More
+1. **Clone the repository:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://your-repository-url.git
+   cd your-project-directory
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   pnpm install
+   ```
 
-## Deploy on Vercel
+3. **Run the development server:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   pnpm dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Open the application:**
+
+   Development server will be available at [http://localhost:3000](http://localhost:3000).
+
+   Live demo available at [https://character-search-app.vercel.app](https://character-search-app.vercel.app).
+
+## Usage
+
+- **Start Typing:** Begin by typing a character's name in the search input.
+- **Navigate Results:** Use the up and down arrow keys to navigate through the autocomplete results.
+- **Select/Deselect Characters:** Press Enter or Space to select a character, or click directly on the character card.
+- **Manage Selected Characters:** View selected characters below the search bar, and remove them by clicking the 'X' icon next to each name.
