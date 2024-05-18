@@ -25,8 +25,8 @@ This project is a React-based application that allows users to search for charac
 1. **Clone the repository:**
 
    ```bash
-   git clone https://your-repository-url.git
-   cd your-project-directory
+   git clone https://github.com/ariburaco/adcreative-case
+   cd adcreative-case
    ```
 
 2. **Install dependencies:**
@@ -45,7 +45,7 @@ This project is a React-based application that allows users to search for charac
 
    Development server will be available at [http://localhost:3000](http://localhost:3000).
 
-   Live demo available at [https://character-search-app.vercel.app](https://character-search-app.vercel.app).
+   Live demo available at [https://adcreative-case-rho.vercel.app](https://adcreative-case-rho.vercel.app).
 
 ## Usage
 
